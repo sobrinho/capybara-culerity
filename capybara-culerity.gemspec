@@ -21,6 +21,6 @@ Gem::Specification.new do |s|
   s.add_dependency "culerity", ">= 0.2.4"
   s.add_dependency "capybara-celerity", ">= 0.0.1"
 
-  s.add_development_dependency "rspec", "~> 2.5"
-  s.add_development_dependency "sinatra", "~> 1.0"
+  s.add_development_dependency "rspec", ">= 2.5"
+  s.add_development_dependency "sinatra", ">= 1.0"
 end
