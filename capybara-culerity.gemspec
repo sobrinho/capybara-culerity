@@ -17,9 +17,9 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency "capybara", "~> 1.0.0"
-  s.add_dependency "culerity", "~> 0.2.15"
-  s.add_dependency "capybara-celerity", ">= 0.0.1"
+  s.add_dependency "capybara", ">= 1.0.0"
+  s.add_dependency "culerity", ">= 0.2.15"
+  s.add_dependency "capybara-celerity", ">= 0.0.1.oc"
 
   s.add_development_dependency "rake", ">= 0.8.7"
   s.add_development_dependency "rspec", ">= 2.6.0"
